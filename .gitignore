@@ -1,0 +1,48 @@
+# --- Sırlar ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+id_rsa*
+credentials*
+secrets*
+*.secret
+.dev.vars
+.wrangler/
+
+# --- Sistem / editör ---
+Thumbs.db
+desktop.ini
+.DS_Store
+*.lnk
+~$*
+*.tmp
+*.bak
+.vscode/
+.idea/
+
+# --- Bağımlılık / derleme ---
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+
+# --- Claude yerel ayarları ---
+.claude/settings.local.json
+
+# --- Public: ham müşteri verisi ve eski sürümler yayınlanmaz ---
+01-girdiler/
+arsiv/
+
+# --- Bu depo ---
+drawings/*
+!drawings/BURAYA-KAYDEDILIR.txt
+*.dwg
+*.bak
